@@ -1,0 +1,77 @@
+body{ 
+    background-color: rgb(241 245 249); 
+    background-image: url(./Components/images/cool-background.png);
+}
+
+@media screen and (min-width: 300px) and (max-width: 640px)  {
+    #social{
+        display: flex; 
+        justify-content: space-between; 
+        align-items: center; 
+        margin-left: 1rem;
+    }
+
+    #name{
+        margin-top: 7rem;
+        margin-left: 3rem;
+        padding: 1rem;
+        width: 850px;
+        font-size: 3rem;
+    }
+
+    #dev{
+        margin-left: 2rem;
+    }
+
+    #hello{
+        margin-left: 4rem;
+    }
+
+    #but{
+        margin-left: 20rem;
+    }
+
+   #sec{
+        display: flex; 
+        justify-content: space-between; 
+        align-items: center;
+        width: 900px;
+        margin-left: 4rem;
+   }
+
+   #pic{
+    margin-left: -9rem;
+   }
+
+   #medseghir{
+    margin-right: 1rem;
+   }
+
+   #tex{
+    margin-right: 5rem;
+   }
+
+   #button{
+    margin-left: 4.5rem;
+   }
+
+   #skills{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    width: 950px;
+   }
+
+   #ski{
+    margin-left: 6rem;
+   }
+
+   #Act{
+    margin-left: 5rem;
+   }
+
+   #butt{
+    margin-left: 13rem;
+   }
+
+}
